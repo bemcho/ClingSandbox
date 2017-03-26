@@ -1,0 +1,7 @@
+.I /usr/local/include/armadillo
+
+.L /usr/local/include/caf/all.hpp
+
+.L /usr/local/lib/libarmadillo.so
+
+.I /home/bemcho/ClingSandbox/include

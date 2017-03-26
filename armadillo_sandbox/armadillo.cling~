@@ -1,0 +1,10 @@
+.I /usr/local/include/armadillo/
+.L /usr/local/lib/libarmadillo.so
+
+.I /usr/local/include/caf/
+
+.I /home/bemcho/ClingSandbox/include
+.I /home/bemcho/Projects/ClingSandbox/include/
+.I /home/bemcho/Projects/ClingSandbox/armadillo_sandbox/
+
+//.L armadillo.cpp

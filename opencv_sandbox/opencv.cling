@@ -1,0 +1,21 @@
+//
+// Created by bemcho on 3/4/17.
+//
+.I /usr/local/include/opencv2
+.L /usr/local/lib/libopencv_videoio.so.3.1.0
+.L /usr/local/lib/libopencv_core.so.3.1.0
+.L /usr/local/lib/libopencv_highgui.so.3.1.0
+.L /usr/local/lib/libopencv_face.so.3.1.0
+.L /usr/local/lib/libopencv_dnn.so.3.1.0
+
+.I /home/bemcho/Projects/ClingSandbox/include/
+.I /home/bemcho/Projects/ClingSandbox/opencv_sandbox/
+.L opencv.cpp
+
+opencvbox::startVisualLoop(0,"Face Recognizer");    
+
+
+
+
+
+
