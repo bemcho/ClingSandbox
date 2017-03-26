@@ -50,16 +50,16 @@ Available under a permissive license, useful for both open-source and proprietar
 http://arma.sourceforge.net/ 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-- For each sandbox:
+For each sandbox:
 
-. *.clingmeta hosts - .I, .L etc cling commands so far cling can not load those files, so they are just copy paste repo, kind of
-. *_sandbox.hpp - hosts local include that do not belong in includes/base_includes.hpp
-. *.cpp - hosts actual c++
-. *.cling - hosts mixed c++ and cling meta
+- *.clingmeta hosts - .I, .L etc cling commands so far cling can not load those files, so they are just copy paste repo, kind of
+- *_sandbox.hpp - hosts local include that do not belong in includes/base_includes.hpp
+- *.cpp - hosts actual c++
+- *.cling - hosts mixed c++ and cling meta
 
-- Globals:
-  . includes - hosts common includes eg: <iostream> ,<algorithm>, <numeric> etc.
-  . libs - hosts local binary dependencies eg: not installed in /usr/lib, /usr/local/lib etc
+ Globals:
+  - includes - hosts common includes eg: iostream,algorithm, numeric, etc.
+  - libs - hosts local binary dependencies eg: not installed in /usr/lib, /usr/local/lib etc
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -73,6 +73,8 @@ so if you need such thing just paste it in the cling.
 
 If you have installed the files mentioned in any *.cling file, you should be able to run it in cling(copy paste)
 
-For emacs you may use cling/cling.el under https://github.com/bemcho/misc which is my .emacs.d setup for C++ devevlopment
+For emacs you may use cling/cling.el under https://github.com/bemcho/misc 
+
+which is my .emacs.d ready for C++ development
 
 For more see: https://github.com/tuhdo/emacs-c-ide-demo
